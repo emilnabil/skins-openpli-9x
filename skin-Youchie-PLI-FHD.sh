@@ -1,20 +1,20 @@
 #!/bin/bash
 ######################################################################################
-## Command=wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/apod/skin-Youchie-PLI-FHD.sh -O - | /bin/sh
+## Command=wget https://raw.githubusercontent.com/emilnabil/skins-openpli-9x/refs/heads/main/skin-Youchie-PLI-FHD.sh -O - | /bin/sh
 ##
 ###########################################
 ###########################################
 
 # My config script #
 PLUGIN_TAR="skin-Youchie-PLI-FHD.tar.gz"
-MY_URL="https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/apod"
+MY_URL="https://raw.githubusercontent.com/emilnabil/skins-openpli-9x/refs/heads/main"
 
 ######################################################################################
 MY_EM='============================================================================================================'
 
 # Remove Old Plugin
 echo "   >>>>   Removing old version..."
-rm -rf /usr/lib/enigma2/python/Plugins/Extensions/apod
+rm -rf /usr/share/enigma2/Youchie-PLI-FHDa
 
 echo "============================================================================================================================"
 echo " DOWNLOAD AND INSTALL PLUGIN "
@@ -42,6 +42,8 @@ echo "$MY_EM"
 echo "**********************************************************************************"
 
 exit 0
+
+
 
 
 
