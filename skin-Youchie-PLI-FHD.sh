@@ -14,7 +14,7 @@ MY_EM='=========================================================================
 
 # Remove Old Plugin
 echo "   >>>>   Removing old version..."
-rm -rf /usr/share/enigma2/Youchie-PLI-FHDa
+rm -rf /usr/share/enigma2/Youchie-PLI-FHD
 
 echo "============================================================================================================================"
 echo " DOWNLOAD AND INSTALL PLUGIN "
@@ -42,6 +42,8 @@ echo "$MY_EM"
 echo "**********************************************************************************"
 
 exit 0
+
+
 
 
 
